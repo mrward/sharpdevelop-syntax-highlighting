@@ -19,15 +19,11 @@ namespace SyntaxHighlighting
 		{
 			Document = new TextDocument();
 			Document.Text = 
-				"<span>\r\n" +
-				"@Html.Raw(model.Message)\r\n" +
-				"</span>\r\n" +
-				"{\r\n" +
-				"\tfoo: bar;\r\n" +
-				"}\r\n";
+				"{\"firstName\":\"John\", \"lastName\":\"Doe\"}\r\n" +
+				"\r\n";
 			
 			SyntaxHighlightingFileName = 
-				@"D:\projects\dotnet\mirador\src\Libraries\AvalonEdit\ICSharpCode.AvalonEdit\Highlighting\Resources\PowerShell.xshd";
+				@"syntax.xshd";
 			SyntaxHighlightingName = "C#";
 			
 			//ReloadSyntaxHighlighting();
