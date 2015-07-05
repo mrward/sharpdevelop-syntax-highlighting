@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.0.7374-alpha
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxHighlighting", "src\SyntaxHighlighting.csproj", "{9E3685EB-7B77-4940-AC40-768706BB383C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E3685EB-7B77-4940-AC40-768706BB383C}.Debug|x86.Build.0 = Debug|x86
+		{9E3685EB-7B77-4940-AC40-768706BB383C}.Debug|x86.ActiveCfg = Debug|x86
+		{9E3685EB-7B77-4940-AC40-768706BB383C}.Release|x86.Build.0 = Release|x86
+		{9E3685EB-7B77-4940-AC40-768706BB383C}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
